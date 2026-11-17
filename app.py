@@ -1,6 +1,6 @@
 import streamlit as st
 st.title("Kiểm tra số nguyên tố")
-n = st.nummer_imput("Nhap mot so:", min_value=1,step=1)
+n = st.number_input("Nhap mot so:", min_value=1,step=1)
 if st.button("Kiem tra"):
     ist_prim=n>=2
 
